@@ -51,7 +51,7 @@ flowchart TD
     L --> M[/Display ranked merit list/]
     M --> N[/Display rejection reasons/]
     N --> O([Stop])
-    ```
+ ```
 
 
 
