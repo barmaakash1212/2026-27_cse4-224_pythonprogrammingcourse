@@ -29,8 +29,7 @@ These are example criteria and can be changed to match actual university scholar
 12. Stop.
 3. Flowchart
 
-Mermaid
----
+---Mermaid
 flowchart TD
     A([Start]) --> B[/Input number of applicants/]
     B --> C[/Input student details and marks/]
