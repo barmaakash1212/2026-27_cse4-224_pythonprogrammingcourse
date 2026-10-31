@@ -46,21 +46,6 @@ Note: The charges and concession percentages are assumed for this academic proje
 - Above ₹5,000: High Payment.
 13. Display the complete billing details.
 14. Stop.
-3. Flowchart
-
-
-
-
-
-
-
-scribd.com
-
-
-4. Python Source Code
-# Hospital Billing and Patient Classification Systemprint("======================================")print(" HOSPITAL BILLING MANAGEMENT SYSTEM")print("======================================")# Input patient detailsname = input("Enter patient name: ")age = int(input("Enter patient age: "))print("\nPatient Categories:")print("1. General")print("2. Senior Citizen")print("3. Student")print("4. BPL")category = input("Enter patient category: ").strip().lower()# Validate ageif age <= 0 or age > 120:    print("Invalid age!")    exit()# Validate patient categoryvalid_categories = [    "general",    "senior citizen",    "student",    "bpl"]if category not in valid_categories:    print("Invalid patient category!")    exit()
-
-
 
 5. Sample Input
 ======================================
