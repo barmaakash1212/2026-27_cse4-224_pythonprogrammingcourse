@@ -47,21 +47,6 @@ Gross Salary = Basic Pay + HRA + DA + Overtime Payment + Incentives.
 Net Salary = Gross Salary − Total Deductions.
 13. Display the formatted salary statement.
 14. Stop.
-3. Flowchart
-
-
-
-
-
-
-
-medium.com
-
-
-4. Python Source Code
-# Employee Payroll and Deduction Analysisprint("==========================================")print("     EMPLOYEE PAYROLL MANAGEMENT SYSTEM")print("==========================================")# Employee detailsemp_id = input("Enter Employee ID: ")name = input("Enter Employee Name: ")basic = float(input("Enter Basic Salary: Rs. "))overtime_hours = float(input("Enter Overtime Hours: "))incentive = float(input("Enter Incentive Amount: Rs. "))# Validate inputif basic < 0 or overtime_hours < 0 or incentive < 0:    print("Invalid Input! Values cannot be negative.")    exit()# Calculate allowanceshra = basic * 0.20da = basic * 0.10# Calculate overtime paymentovertime_rate = 200overtime_pay = overtime_hours * overtime_rate# Calculate gross salarygross_salary = basic + hra + da + overtime_pay + incentive# Progressive deduction calculationdef calculate_deduction(salary):    deduction = 0
-
-
 
 5. Sample Input
 ==========================================
