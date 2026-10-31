@@ -129,8 +129,8 @@ Average Monthly Bill: Rs. 808.88
 Thank you!
 
 
-7. ```Mermaid
-8. Flowchart
+ ```Mermaid
+ Flowchart
 
 flowchart TD
     A([Start]) --> B[/Enter number of months/]
