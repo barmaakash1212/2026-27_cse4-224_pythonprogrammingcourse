@@ -39,21 +39,6 @@ Note: These are assumed rates for an academic project, not official electricity 
 11. If the increase is greater than 30%, display an unusual increase warning.
 12. Display all monthly bills and total expenditure.
 13. Stop.
-3. Flowchart
-
-
-
-
-
-
-
-medium.com
-
-
-4. Python Source Code
-# Progressive Electricity Billing Systemdef calculate_energy_charge(units):    charge = 0    if units <= 100:        charge = units * 2    elif units <= 200:        charge = (100 * 2) + (units - 100) * 3    elif units <= 300:        charge = (100 * 2) + (100 * 3) + (units - 200) * 5    else:        charge = (100 * 2) + (100 * 3) + (100 * 5) + (units - 300) * 7    return chargedef calculate_bill(units):    energy_charge = calculate_energy_charge(units)    fixed_charge = 50    surcharge = energy_charge * 0.05    # Rebate for consumption below 100 units    rebate = 20 if units < 100 else 0    total_bill = energy_charge + fixed_charge + surcharge - rebate    return energy_charge, surcharge, rebate, total_bill# Main program
-
-
 
 5. Sample Input
 Enter number of months: 4
